@@ -4,7 +4,7 @@ from urllib.parse import urlparse, parse_qs
 from langchain.schema import Document
 import os
 from dotenv import load_dotenv
-load_dotenv()
+load_dotenv()  
 
 def extract_youtube_video_id(url):
     # Handles both long and short formats
