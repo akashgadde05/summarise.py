@@ -5,7 +5,7 @@ from langchain.schema import Document
 import os
 from dotenv import load_dotenv
 load_dotenv()  
-
+ 
 def extract_youtube_video_id(url):
     # Handles both long and short formats
     if "youtube.com" in url:
